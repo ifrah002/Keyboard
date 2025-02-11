@@ -1,0 +1,36 @@
+body button{
+    box-shadow: 16px 13px 15px 0px black;
+}
+.container{
+    border: 15px solid black;
+    padding: 25px;
+    border-radius: 10px;
+    width: 850px;
+    background-color: rgb(45, 42, 42);
+    box-shadow: 16px 13px 15px 0px black; 
+    height: 300px;   
+}
+.wrapper .keys button[type="SPACE"]{
+    width: 200px;
+    padding: 15px;
+}
+.wrapper .keys button[type="shift"]{
+    width: 100px;
+}
+.wrapper .keys button{
+    padding: 10px;
+    margin: 5px;
+}
+.wrapper .keys button img{
+    background-color: white;
+}
+.container button{
+    background-color: black;
+    color: white;
+}
+.container .wrapper .keys button:hover{
+    background-color: rgb(33, 39, 39);
+}
+.container .wrapper #row1{
+    margin-top: -20px;
+}
